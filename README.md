@@ -45,7 +45,7 @@ Some of the methods listed are provided to you in the starter code. You should c
 ### Initializers, Readers, and Writers
 
 #### Customer
-
+<!-- 
 - `Customer#initialize`
   - Customer should be initialized with a given name and family name, both strings (i.e., first and last name, like George Washington)"
 - `Customer#given_name`
@@ -57,16 +57,16 @@ Some of the methods listed are provided to you in the starter code. You should c
 - `Customer#full_name`
   - returns the full name of the customer, with the given name and the family name concatenated, Western style.
 - `Customer.all`
-  - returns **all** of the customer instances
+  - returns **all** of the customer instances -->
 
-#### Restaurant
+<!-- #### Restaurant
 
 - `Restaurant#initialize`
   - Restaurants should be initialized with a name, as a string
 - `Restaurant#name`
-  - returns the restaurant's name
-  - should not be able to change after the restaurant is created
-
+  - returns the restaurant's name *******READER
+  - should not be able to change after the restaurant is created -->
+<!-- 
 #### Review
 
 - `Review#initialize`
@@ -74,32 +74,32 @@ Some of the methods listed are provided to you in the starter code. You should c
 - `Review#rating`
   - returns the rating for a restaurant.
 - `Review.all`
-  - returns all of the reviews
+  - returns all of the reviews -->
 
 ### Object Relationship Methods
 
 #### Review
-
+<!-- 
 - `Review#customer`
   - returns the customer object for that review
   - Once a review is created, should not be able to change the customer
 - `Review#restaurant`
   - returns the restaurant object for that given review
-  - Once a review is created, should not be able to change the restaurant
+  - Once a review is created, should not be able to change the restaurant -->
 
-#### Restaurant
+<!-- #### Restaurant
 
 - `Restaurant#reviews`
   - returns an array of all reviews for that restaurant
 - `Restaurant#customers`
-  - Returns a **unique** list of all customers who have reviewed a particular restaurant.
+  - Returns a **unique** list of all customers who have reviewed a particular restaurant. -->
 
-#### Customer
+<!-- #### Customer
 
 - `Customer#restaurants`
   - Returns a **unique** array of all restaurants a customer has reviewed
 - `Customer#add_review(restaurant, rating)`
-  - given a **restaurant object** and a star rating (as an integer), creates a new review and associates it with that customer and restaurant.
+  - given a **restaurant object** and a star rating (as an integer), creates a new review and associates it with that customer and restaurant. -->
 
 ### Aggregate and Association Methods
 
@@ -118,7 +118,7 @@ Some of the methods listed are provided to you in the starter code. You should c
   - returns the average star rating for a restaurant based on its reviews
   - Reminder: you can calculate the average by adding up all the ratings and dividing by the number of ratings
 
-## Rubric
+<!-- ## Rubric
 
 ### Build classes using OO Ruby Syntax
 
@@ -142,4 +142,4 @@ Some of the methods listed are provided to you in the starter code. You should c
 2. Collections methods have runtime or logic errors. Collections methods may use the wrong iterators, have incorrect logic, or many of the collections methods are unimplemented.
 3. Some collections methods work correctly, though several might be unimplemented. Code may not use the appropriate built in method for each problem, or duplicate logic instead of using helper methods.
 4. All collections methods are implemented and function correctly. Most use appropriate higher-level built-in methods. Methods may duplicate logic instead of using helper methods.
-5. All collections methods implemented and function correctly, using appropriate higher-level built-in methods. Shared logic is factored out to helper methods.
+5. All collections methods implemented and function correctly, using appropriate higher-level built-in methods. Shared logic is factored out to helper methods. -->
